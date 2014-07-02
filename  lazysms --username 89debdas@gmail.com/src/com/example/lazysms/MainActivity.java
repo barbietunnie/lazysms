@@ -56,6 +56,27 @@ public class MainActivity extends Activity {
 	        }
 	    });
 		
+		
+		Button btnsmsbackup = (Button) findViewById(R.id.btnsmsbackup);
+		
+		btnsmsbackup.setOnClickListener(new View.OnClickListener() {
+	        
+	        public void onClick(View arg0) {
+	        	Intent i = new Intent(getApplicationContext(), SmsSync.class);
+	            startActivity(i);
+	        }
+	    });
+		
+		Button btntranslate = (Button) findViewById(R.id.btntranslate);
+		
+		btntranslate.setOnClickListener(new View.OnClickListener() {
+	        
+	        public void onClick(View arg0) {
+	        	Intent i = new Intent(getApplicationContext(), LanguageTranslate.class);
+	            startActivity(i);
+	        }
+	    });
+		
 	}
 
 	@Override

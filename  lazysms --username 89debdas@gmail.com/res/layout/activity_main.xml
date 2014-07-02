@@ -113,6 +113,50 @@
 
     </TableRow>
     
+    <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/btnsmsbackup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_btn_orange"
+        android:gravity="center"
+        android:padding="10dip"
+        android:shadowColor="#000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="0.6"
+        android:text="SMS Backup"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    </TableRow>
+    
+    <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/btntranslate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_btn_orange"
+        android:gravity="center"
+        android:padding="10dip"
+        android:shadowColor="#000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="0.6"
+        android:text="Language Translate"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    </TableRow>
+    
     </TableLayout>
 
 </RelativeLayout>
